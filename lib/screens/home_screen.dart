@@ -47,7 +47,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 enabledBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(30.0),
-                  borderSide: BorderSide(width: 1.6, color: Theme.of(context).primaryColor),
+                  borderSide: BorderSide(
+                      width: 1.6, color: Theme.of(context).primaryColor),
                 ),
                 hintText: 'Search Food or Restaurant',
                 prefixIcon: Icon(
@@ -62,6 +63,22 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           RecentOrders(),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20.0),
+                child: Text(
+                  'Nearby Restaurants',
+                  style: TextStyle(
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.w600,
+                      letterSpacing: -1.5,
+                      color: Colors.black),
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
