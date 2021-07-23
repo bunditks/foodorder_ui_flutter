@@ -21,7 +21,7 @@ final _pizza =
 final _salmon = Food(
     imageUrl: 'assets/images/salmon.jpg', name: 'Salmon Salad', price: 12.99);
 
-/// Restaurants
+// Restaurants
 final _restaurant0 = Restaurant(
   imageUrl: 'assets/images/restaurant0.jpg',
   name: 'Restaurant 0',
