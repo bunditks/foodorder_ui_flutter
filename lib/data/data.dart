@@ -3,7 +3,7 @@ import 'package:flutter_food_delivery_ui/models/order.dart';
 import 'package:flutter_food_delivery_ui/models/restaurant.dart';
 import 'package:flutter_food_delivery_ui/models/user.dart';
 
-//// Food
+/// Food
 final _burrito =
     Food(imageUrl: 'assets/images/burrito.jpg', name: 'Burrito', price: 8.99);
 final _steak =
